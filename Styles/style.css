@@ -1,0 +1,168 @@
+@import 'fonts.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    /* outline: 1px solid red; */
+}
+
+/*==============================================HEADER START==============================================*/
+
+header{
+    height: 100px;
+    justify-content: center;
+}
+
+header nav ul li a{
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+    color: #191919;
+    font-size: 12px;
+}
+
+header nav ul li a:hover{
+    color: #007d2f;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav{
+    margin-top: 17px;
+}
+
+/*==============================================HEADER END================================================*/
+
+/*==============================================MAIN START================================================*/
+
+.right img{
+    width: 100%;
+    height: 100%;
+}
+
+.bg__food{
+    background: #f6f6f6;
+}
+
+.left h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 38px;
+    color: #171717;
+    text-transform: capitalize;
+    margin-bottom: 33px;
+}
+
+
+.left .text{
+    font-family: 'NunitoSans-Regular';
+    color: #787878;
+    font-size: 16px;
+    margin-bottom: 34px;
+
+}
+
+.left .text1{
+    font-family: 'NunitoSans-Regular';
+    color: #787878;
+    font-size: 16px;
+
+}
+
+.left .client{
+    font-family: 'NunitoSans-Regular';
+    color: #787878;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.left .client span{
+    font-family: 'NunitoSans-Bold';
+    color: #787878;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.margin{
+    margin-top: 60px;
+}
+
+
+
+
+
+.container__bg__controls{
+    background: #007d2f;
+    height: 100px;
+}
+
+
+.container__bg__controls .container{
+    height: 100%;
+}
+
+.container__bg__controls .row{
+    height: 100%;
+}
+
+.prev_col, .next_col{
+    text-align: center;
+    height: 100%;
+}
+
+.prev_col p, .next_col p{
+    margin: 0;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.prev_col a:hover,
+.next_col a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+
+/* .prev_col span, .next_col span{
+    
+} */
+
+.pe-7s-angle-left, .pe-7s-angle-right{
+    font-size: 24px;
+    color: #000000;
+}
+/*===============================================MAIN END================================================*/
+
+footer{
+    height: 284px;
+    background: #141414;
+}
+
+footer .container{
+    height: 100%;
+}
+
+.right ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.right ul li a:hover{
+    color: wheat;
+}
+
+.left h4, .left p{
+    color: white;
+}
+
+.middle a{
+    text-decoration: none;
+    color: white;
+}
+
+.middle a:hover{
+    text-decoration: none;
+    color: wheat;
+}
