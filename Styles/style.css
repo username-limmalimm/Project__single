@@ -11,8 +11,10 @@
 /*==============================================HEADER START==============================================*/
 
 header{
-    height: 100px;
     justify-content: center;
+}
+.header__nav a{
+    padding: 18px 0;
 }
 
 header nav ul li a{
@@ -36,10 +38,10 @@ header nav{
 
 /*==============================================MAIN START================================================*/
 
-.right img{
+/* .right img{
     width: 100%;
     height: 100%;
-}
+} */
 
 .bg__food{
     background: #f6f6f6;
@@ -51,6 +53,11 @@ header nav{
     color: #171717;
     text-transform: capitalize;
     margin-bottom: 33px;
+    padding-top: 105px;
+}
+
+.left p:nth-child(6){
+    padding-bottom: 105px;
 }
 
 
@@ -89,7 +96,14 @@ header nav{
 
 
 
-
+.right-img{
+    position: absolute;
+    left: 100%;
+    width: 50vw;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+}
 
 .container__bg__controls{
     background: #007d2f;
@@ -134,9 +148,14 @@ header nav{
 }
 /*===============================================MAIN END================================================*/
 
+/*===============================================FOOTER START================================================*/
+
 footer{
     height: 284px;
     background: #141414;
+}
+footer .row{
+    width: 100%;
 }
 
 footer .container{
@@ -165,4 +184,65 @@ footer .container{
 .middle a:hover{
     text-decoration: none;
     color: wheat;
+}
+
+/*===============================================FOOTER END================================================*/
+
+@media(max-width:991px){
+    .middle{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    .carousel-item{
+        background: url(../Pictures/img_food.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .carousel-item .left{
+        background: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .carousel-item h3{
+        color: white;
+    }
+
+    .carousel-item .left p{
+        color: white;
+    }
+
+    .carousel-item .left span{
+        color: white;
+    }
+}
+
+@media(max-width:355px){
+    .header__menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left h3{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .left .text,
+    .left .text1{
+        font-size: 13px;
+    }
+
+    .left .client,
+    .left .client span{
+        font-size: 13px;
+    }
+
+    .left p:nth-child(6){
+        padding-bottom: 30px;
+    }
 }
